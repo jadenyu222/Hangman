@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="text.css">
+
+</head>
+<body>
+
+<div id="title" class="header"> Hangman!</div>
+
+<select id="difficulty" onchange="reset()">
+    <option value="0">Easy</option>
+    <option value="1">Medium</option>
+    <option value="2">hard</option>
+</select>
+
+<button onclick="getword()">Get Your Word!</button>
+
+<input type="text" id="letter" value="" size="5" placeholder="letter">
+
+<button onclick="tester()">Check your letter!</button>
+
+<button onclick="reset()">Reset Game</button>
+<div id="output" class="output"></div>
+
+
+
+
+<div id="output1"></div>
+
+
+</body>
+</html>
