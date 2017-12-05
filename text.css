@@ -3,7 +3,7 @@ body{
 }
 
 .info{
-    font-size: 25pxpx;
+    font-size: 25px;
     color: #7d92ff;
 }
 
@@ -18,4 +18,5 @@ body{
 .output{
     font-size: 75px;
     color: aquamarine;
+    letter-spacing: 10px;
 }
